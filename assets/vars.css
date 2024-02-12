@@ -1,0 +1,8 @@
+:root{
+    --color-background: #F3F5FC;
+    --color-principal: #0A3871;
+    --color-white: #FFF;
+    --color-atencao: rgba(73, 80, 87, 1);
+    
+    --font-principal: 'Inter', sans-serif;
+}
