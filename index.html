@@ -14,7 +14,7 @@
     </header>
     <main class="content">
         <section class="content__principal">
-            <textarea class="content__principal__inserirTxt" type="text" placeholder="Digite seu texto"></textarea>
+            <textarea id="content__principal__inserirTxt" class="content__principal__inserirTxt" type="text" placeholder="Digite seu texto"></textarea>
             <div class="content__principal__atencao ">
                 <img  src="assets/imagens/atencao.png" alt="atencao">
                  <span>
@@ -26,14 +26,19 @@
                 <a href="" class="content__principal__btns__descriptgrafar">Descriptografar</a>
             </div>
         </section>
-        <section class="content__lateral">
-            <img class="content__lateral__Imgpesquisa" src="assets/imagens/lateral.png" alt="Pesquisa">
-            <p class="content__lateral__txt">Nenhuma mensagem encontrada</p>
-            <p class="content__lateral__digitar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <section id="content__lateral" class="content__lateral">
+            <div id="inserirTexto"></div>
+            <img id="content__lateral__Imgpesquisa" class="content__lateral__Imgpesquisa" src="assets/imagens/lateral.png" alt="Pesquisa">
+            <div id="textoLateral">
+                <p class="content__lateral__txt">Nenhuma mensagem encontrada</p>
+                <p class="content__lateral__digitar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
         </section>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Gabrielly</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
