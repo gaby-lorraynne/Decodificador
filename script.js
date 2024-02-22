@@ -4,6 +4,7 @@ var imagemPesquisa = document.getElementById("content__lateral__Imgpesquisa");
 var inserirTexto = document.getElementById("inserirTexto");
 var textoLateral = document.getElementById("textoLateral");
 var btnCopiar = document.getElementById("content__principal__btns__copiar");
+var textoOriginal = "";
 
 //Evento textarea
 textarea.addEventListener("input", function(){
@@ -30,6 +31,22 @@ textarea.addEventListener("input", function(){
 
 });
 
+function criptografarTexto() {
+    // Obter o texto do textarea
+    var entrada = textarea.value;
+
+    // Armazenar o texto original
+    textoOriginal = entrada;
+
+    // Chamar a função de criptografia
+    var saida = criptografar(entrada);
+
+    // Exibir o texto criptografado de volta no textarea
+    inserirTexto.textContent = textarea.value = saida;
+
+    // Atualizar o textarea com o texto original
+    textarea.value = textoOriginal;
+}
 
 // Criptografar
 function criptografar(entrada){
@@ -43,7 +60,24 @@ function criptografar(entrada){
     return saida;
 }
 
-// Criptografar
+function descriptografarTexto() {
+    // Obter o texto do textarea
+    var entrada = textarea.value;
+
+    // Armazenar o texto original
+    textoOriginal = entrada;
+
+    // Chamar a função de criptografia
+    var saida = descriptografar(entrada);
+
+    // Exibir o texto criptografado de volta no textarea
+    inserirTexto.textContent = textarea.value = saida;
+
+    // Atualizar o textarea com o texto original
+    textarea.value = textoOriginal;
+}
+
+// descriptografar
 function descriptografar(entrada){
     const saida = entrada
     .replaceAll("enter", "e")
@@ -54,6 +88,3 @@ function descriptografar(entrada){
 
     return saida;
 }
-
-let test = textarea;
-console.log(criptografar(test));
