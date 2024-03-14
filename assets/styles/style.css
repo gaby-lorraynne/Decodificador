@@ -19,6 +19,8 @@ body{
     justify-content: space-between;
     align-items: stretch;/* Garante que os elementos filhos tenham a mesma altura */
     gap: 80px;
+    width: 100%;
+    height: 100%;
 }
 
 .content__principal{
