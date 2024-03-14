@@ -1,10 +1,9 @@
-@media (min-width:1275px){
+/* @media (min-width:1275px){
     .content{
         gap: 20px;
     }
     .content__principal{
         width: 600px;
-        padding: 5rem 0 0 5rem;
     }
     .content__principal__inserirTxt{
         width: 600px;
@@ -14,20 +13,25 @@
         margin: 8.25rem 5rem 0 5rem;
     }
 
-}
+} */
 
 /* For Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
     .content {
         flex-direction: column; 
     }
+
+    .content__principal{
+        padding: 5rem 0 0 3rem;
+    }
+
     .content__principal__atencao{
         font-size: 20px;
     }
 
     .content__principal__btns__criptografar,
     .content__principal__btns__descriptgrafar {
-        width: 80%; 
+        width: 50%; 
         font-size: 30px;
     }
     
@@ -40,6 +44,9 @@
     }
     .content__lateral__txt{
         font-size: 25px;
+    }
+    #inserirTexto{
+        width: 95%;
     }
 
     .content__lateral__digitar{
@@ -62,6 +69,9 @@
         align-items: center;
     }
 
+    .content__principal{
+        padding: 5rem 0 0 1rem;
+    }
     .content__principal__inserirTxt{
         width: 100%;
        
@@ -78,14 +88,18 @@
     .content__principal__btns__criptografar,
     .content__principal__btns__descriptgrafar {
         width: 70%; 
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .content__lateral{
         width: 90%;
-        margin-left: 40px;
+        margin-left: 45px;
         height: 300px;
         align-items: center;
+    }
+
+    #inserirTexto{
+        width: 95%;
     }
 
     .content__lateral__Imgpesquisa {
