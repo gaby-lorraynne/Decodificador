@@ -22,12 +22,15 @@ textarea.addEventListener("input", function(){
     }
 
 
-    // Inserir botão de copiar depois
-    if(textarea.value.trim() !== ""){
-        btnCopiar.style.display = "block";
-    } else {
-        btnCopiar.style.display = "none";
-    }
+    // Verificar se possui letras Maiúsculas ou Acentos
+    
+
+    // // Inserir botão de copiar depois
+    // if(textarea.value.trim() !== ""){
+    //     btnCopiar.style.display = "block";
+    // } else {
+    //     btnCopiar.style.display = "none";
+    // }
 });
 
 
