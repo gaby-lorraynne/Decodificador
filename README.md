@@ -1,4 +1,4 @@
-# DIO | Apresentação e planejamento semanal
+# Alura | Codificador de Textos
 
 Bem vindos ao Codificador de textos! Aqui você pode Criptografar e Descriptografar mensagens secretas e compartilhar com seus amigos, legal né?!
 Esse projeto está sendo desenvolvido no curso da Turma 6 do ONE - Oracle Next Education em parceria com a Alura. 
