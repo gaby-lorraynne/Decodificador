@@ -108,11 +108,13 @@ body{
     border: none;
 }
 
+
 .content__principal__btns__descriptgrafar{
     background-color: #D8DFE8;
     color: var(--color-principal);
     border: 1px solid var(--color-principal);
 }
+
 
 
 .content__principal__btns__copiar{

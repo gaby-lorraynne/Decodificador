@@ -19,8 +19,10 @@
 
     .content__principal__btns__criptografar,
     .content__principal__btns__descriptgrafar {
-        width: 50%; 
+        width: 45%; 
+        height: 100px;
         font-size: 30px;
+        margin: 0 auto;
     }
     
     .content__lateral {
@@ -76,7 +78,7 @@
     .content__principal__btns__descriptgrafar {
         width: 80%; 
         height: 80px;
-        font-size: 20px;
+        font-size: 30px;
         margin: 0 auto;
     }
 
@@ -100,3 +102,4 @@
         width: 3px;
     }
 }
+

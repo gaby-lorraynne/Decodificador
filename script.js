@@ -3,8 +3,10 @@ var contentLateral = document.getElementById("content__lateral");
 var imagemPesquisa = document.getElementById("content__lateral__Imgpesquisa");
 var inserirTexto = document.getElementById("inserirTexto");
 var textoLateral = document.getElementById("textoLateral");
-var btnCopiar = document.getElementById("content__principal__btns__copiar");
 var textoOriginal = "";
+
+
+
 
 //Evento textarea
 textarea.addEventListener("input", function(){
@@ -21,16 +23,6 @@ textarea.addEventListener("input", function(){
         textoLateral.style.display = "block";
     }
 
-
-    // Verificar se possui letras Maiúsculas ou Acentos
-    
-
-    // // Inserir botão de copiar depois
-    // if(textarea.value.trim() !== ""){
-    //     btnCopiar.style.display = "block";
-    // } else {
-    //     btnCopiar.style.display = "none";
-    // }
 });
 
 
@@ -91,3 +83,4 @@ function descriptografar(entrada){
 
     return saida;
 }
+
